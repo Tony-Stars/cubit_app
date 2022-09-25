@@ -18,7 +18,6 @@ class PostsPage extends StatelessWidget {
             child: CircularProgressIndicator(),
           );
         }
-        print(posts);
         return ListView.builder(itemBuilder: (context, index) {
           return Card(
             child: ListTile(
